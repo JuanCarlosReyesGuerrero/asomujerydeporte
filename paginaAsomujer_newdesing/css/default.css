@@ -1,0 +1,1282 @@
+/*
+Template: Hasta
+Author: Codelayers
+Version: 1.0
+Design and Developed by: Codelayers
+*/
+
+
+/*
+======================================
+[ CSS TABLE CONTENT ]
+======================================
+    [Table of contents]
+
+	1. General
+		+ Text Colors
+		+ Divider lines
+		+ Paddings
+		+ Opacity styles
+		+ fonts
+		+ Icon Boxes
+		+ Text Boxes
+		+ Buttons
+		+ Opacity styles
+		+ buttons
+
+	2. Image boxes
+		+ section-side-image
+		+ background-imgholder
+		+ image-left
+		+ image-holder
+		+ nodisplay-image
+	
+	3. Lists
+		+ iconlist
+		+ clientlogo-list
+		+ side-nav-list
+		+ category-links
+		+ tags 
+	
+	4. Menu Backgrounds
+		+ Headers
+	
+	5. Topbar Styles
+		+ topbar
+		+ toplist
+	
+	6. Logo
+		+ logo
+	
+	7. Section Titles
+		+ section titles
+	
+	8. Page Section Styles
+		+ Section Styles
+	
+	9. Footer Styles
+		+ footer logo
+		+ lists
+	
+	
+	10. Parallax Sections
+	
+	11. Overlay Styles
+		+ Section Overlay
+		+ video overlay
+	
+	12. Social Links
+		+ social-icons-1
+		+ social-icons-2
+		+ social-icons-3
+	
+	13. Feature boxs
+	
+	14. Team Section
+	
+	15. Price Tables
+	
+	16. Blog Posts
+	
+	17. Testimonials
+
+	18. Footer Newsletter
+	
+	19. Video wrapers
+	
+	20. Progress bar
+	
+	21. Newsletter
+	
+	22. css progress circles
+	
+	23. Page Scroll to Top
+	
+======================================
+[ END CSS TABLE CONTENT ]
+======================================
+*/
+
+/*============ Lists ============ */
+
+.iconlist {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.iconlist li {
+	padding: 0px;
+	margin: 0 0 15px 0;
+	display: block;
+	line-height: 23px;
+}
+.iconlist li i {
+	color: #fd602c;
+	padding: 0 15px 0 0;
+}
+.iconlist.orange li i {
+	color: #fd602c;
+	padding: 0 15px 0 0;
+}
+.iconlist.orange2 li i {
+	color: #fd602c;
+	padding: 0 15px 0 0;
+}
+.iconlist.dark li i {
+	color: #161616;
+}
+.iconlist.less-margin li {
+	margin: 0 0 13px 0;
+}
+.iconlist.green2 li i {
+	color: #fd602c;
+}
+.iconlist.yellow li i {
+	color: #ffc000;
+}
+.iconlist.white li i {
+	color: #fff;
+}
+.iconlist.white-2 li {
+	color: #fff;
+}
+.iconlist.medium li i {
+	color: #727272;
+}
+.iconlist.dark-red li {
+	color: #913256;
+}
+.iconlist.pink li i {
+	color: #f51f6f;
+	padding: 0 15px 0 0;
+}
+.iconlist.stone li a {
+	color: #c3a254;
+	margin: 0 0 10px 0;
+}
+.iconlist.stone li i {
+	color: #c3a254;
+}
+.iconlist.red-5 li i {
+	color: #ed3325;
+}
+.iconlist.cyan li i {
+	color: #42d1aa;
+}
+.iconlist.blue li i {
+	color: #1fbef0;
+}
+.iconlist.green-4 li i {
+	color: #8ac700;
+}
+.iconlist.green-4 li {
+	margin: 0 0 10px 0;
+}
+/* Client Logo List
+ ------------------------------ */
+.clientlogo-list {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+.clientlogo-list li {
+	display: inline;
+	padding: 0 16px 0 0;
+	margin: 0px;
+}
+.clientlogo-list li.last {
+	padding: 0 0 0 0;
+}
+.clientlogo-list.two li {
+	padding: 0 90px 0 0;
+}
+.clientlogo-list.two li.last {
+	padding: 0 0 0 0;
+}
+.clientlogo-list.two.transparent {
+	opacity: 0.5;
+}
+/* Client Logo List 2
+ ------------------------------ */
+.client-list2 {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	display: inline-block;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.client-list2 .col-md-4 {
+	border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+.client-list2 .col-md-4:last-child {
+	border-right: none;
+}
+.client-list2.lastrow {
+	border-bottom: none;
+}
+/* Client Logo List 3
+ ------------------------------ */
+.client-list3 {
+	width: 100%;
+	padding: 15px;
+	margin: 0 0 3px 0;
+	float: left;
+	text-align: center;
+	background-color: #fff;
+}
+/* side navigation list
+ ------------------------------ */
+.side-nav-list {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+.side-nav-list li {
+	width: 100%;
+	padding: 0px;
+	margin: 0 0 2px 0;
+	float: left;
+}
+.side-nav-list li a {
+	width: 100%;
+	padding: 15px 25px;
+	margin: 0px;
+	font-weight: normal;
+	float: left;
+	background-color: #f6f6f6;
+}
+.side-nav-list li a:hover, .side-nav-list li a.active {
+	color: #fff;
+	background-color: #ffc000;
+}
+/* side navigation list
+ ------------------------------ */
+.category-links {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+.category-links li {
+	width: 100%;
+	padding: 10px 0;
+	margin: 0 0 0 0;
+	float: left;
+	border-bottom: 1px solid #eeeeee;
+}
+.category-links li a:hover, .category-links li a.active {
+	color: #dbdc33;
+}
+.category-links li:last-child {
+	border-bottom: none;
+}
+.category-links.red-4 li a:hover, .category-links.red-4 li a.active {
+	color: #f43819;
+}
+.category-links.cyan li a:hover, .category-links.cyan li a.active {
+	color: #42d1aa;
+}
+.category-links.orange-2 li a:hover, .category-links.orange-2 li a.active {
+	color: #fd602c;
+}
+
+/* blog1 tags
+ ------------------------------ */	
+.tags {
+	padding: 0px;
+	margin: 0px;
+}
+.tags li {
+	padding: 0px;
+	margin: 0;
+}
+.tags li a {
+	padding: 5px 15px 5px 15px;
+	margin: 0 10px 10px 0;
+	float: left;
+	color: #727272;
+	background-color: #e7e7e7;
+}
+.tags li a:hover, .tags li a.active {
+	color: #fff;
+	background-color: #dbdc33;
+}
+
+.tags.two li a {
+	color: #242424;
+	background-color: #fff;
+	border:1px solid #e4e4e4;
+}
+.tags.two li a:hover, .tags.two li a.active {
+	color: #fff;
+	background-color: #42d1aa;
+	border:1px solid #42d1aa;
+}
+
+/*tags 2
+ ------------------------------ */	
+.tags-2 {
+	padding: 0px;
+	margin: 0px;
+}
+.tags-2 li {
+	padding: 0px;
+	margin: 0;
+}
+.tags-2 li a {
+	padding: 5px 15px 5px 15px;
+	margin: 0 10px 10px 0;
+	float: left;
+	color: #727272;
+	border:1px solid #e4e4e4;
+	background-color: #fff;
+}
+.tags-2 li a:hover, .tags-2 li a.active {
+	color: #fff;
+	border:1px solid #fd602c;
+	background-color: #fd602c;
+}
+
+/* sidebar works list
+ ------------------------------ */	
+.sidebar-works {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.sidebar-works li {
+	padding: 0px;
+	margin: 4px 4px 0 0;
+	float: left;
+}
+.sidebar-works li.last {
+	margin: 4px 0 0 0;
+}
+/*============ Curent class for one page theme ============ */
+
+.menu-main .navbar-nav li a.current {
+	color: #fcc813;
+}
+#header .navbar-nav li a.current {
+	color: #e9b444;
+	border-bottom:2px solid #e9b444;
+}
+#header11 .navbar-nav li a.current {
+	color: #ff9320;
+}
+/*============ Menu Backgrounds ============ */
+
+/* Sticky bg
+ ------------------------------ */
+#header {
+	position: relative;
+	background: #fff;
+	padding: 0;
+	width: 100%;
+	z-index: 999;
+}
+#header2 {
+	position: relative;
+	background: none;
+	padding: 0;
+	width: 100%;
+	left: 0px;
+	margin: 0px;
+	top: 0px;
+	z-index: 999;
+	transition: background-color 0.4s ease-out;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+#header3 {
+	position: relative;
+	background: #000;
+	padding: 0;
+	width: 100%;
+	z-index: 999;
+}
+#header4 {
+	position: relative;
+	background: none;
+	padding: 0;
+	width: 100%;
+	left: 0px;
+	margin: 0px;
+	top: 0px;
+	z-index: 999;
+	transition: background-color 0.4s ease-out;
+}
+#header5 {
+	position: relative;
+	background: none;
+	padding: 0;
+	width: 100%;
+	left: 0px;
+	margin: 0px;
+	top: 0px;
+	z-index: 999;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	transition: background-color 0.4s ease-out;
+}
+#header6 {
+	position: relative;
+	background: #161616;
+	padding: 0;
+	width: 100%;
+	z-index: 999;
+}
+#header7 {
+	position: relative;
+	background: none;
+	padding: 0;
+	width: 100%;
+	height: 50px;
+	left: 0px;
+	margin: 0px;
+	top: 0px;
+	z-index: 999;
+	transition: background-color 0.4s ease-out;
+}
+#header8 {
+	position: relative;
+	background: none;
+	padding: 0;
+	width: 100%;
+	left: 0px;
+	margin: 0px;
+	top: 25px;
+	z-index: 999;
+	transition: background-color 0.4s ease-out;
+	background: none;
+}
+#header8 .menu-bg {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	-webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.12);
+	-moz-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.12);
+	box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.12);
+	background-color: #fff;
+}
+#header9 {
+	position: relative;
+	background: none;
+	padding: 0;
+	width: 100%;
+	left: 0px;
+	margin: 0px;
+	top: -48px;
+	z-index: 999;
+	transition: background-color 0.4s ease-out;
+	background: none;
+}
+#header9 .menu-bg {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	-webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.12);
+	-moz-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.12);
+	box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.12);
+	background-color: #fff;
+}
+#header10 {
+	position: relative;
+	padding: 0;
+	width: 100%;
+	left: 0px;
+	margin: 0px;
+	top: -48px;
+	z-index: 9000;
+	transition: background-color 0.4s ease-out;
+	background: none;
+}
+#header10 .menu-bg {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	-webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.12);
+	-moz-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.12);
+	box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.12);
+	background-color: #fff;
+}
+#header11 {
+	position: relative;
+	background: #fff;
+	padding: 0;
+	width: 100%;
+	z-index: 999;
+	border-bottom:1px solid #eeeeee;
+}
+.navbar-brand.left-padding {
+	padding-left: 20px;
+}
+.navbar-brand.logo-padding {
+	padding: 35px 0 0 20px;
+}
+.menu-main {
+	background: none;
+}
+.menu-main2 {
+	background: none;
+}
+.menu-main-3 {
+	background: none;
+}
+.navbar-header .logo-box{
+	width:200px;
+	height:80px;
+	padding:0 0 0 20px;
+	margin:0px;
+	float:left;
+	background-color:#ed3325;
+	}
+.navbar-header .logo-box.big-1{
+	width:250px;
+	}
+.navbar-header .logo-box.big-2{
+	width:300px;
+	}
+.navbar-header .logo-box.big-3{
+	width:400px;
+	}
+.navbar-brand.less-top-padding {
+    padding: 16px 0 0;
+}	
+	
+/*============ Topbar Styles ============ */
+
+/* Topbar
+ ------------------------------ */
+ 
+.topbar {
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0px;
+}
+.topbar.white {
+	background-color: #fff;
+	border-bottom: 1px solid #efefef;
+}
+.topbar.light {
+	background-color: #f6f6f6;
+}
+.topbar.dark {
+	background-color: #242424;
+}
+.topbar.fulldark {
+	background-color: #000;
+	border-bottom: 1px solid #262626;
+}
+.topbar.orange2 {
+	background-color: #fd602c;
+}
+.topbar.red2 {
+	background-color: #ea3628;
+}
+.topbar.red-3 {
+	background-color: #eb574c;
+}
+.topbar.pink-2{
+background-color: #f51f6f;
+}
+.topbar.more-padding {
+	padding: 20px 0 80px 0;
+}
+/* Topbar list
+ ------------------------------ */
+.toplist {
+	float: right;
+	padding: 0px;
+	margin: 0px;
+}
+.toplist li {
+	float: left;
+	color: #8d8c8c;
+	text-align: right;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0 10px 0 10px;
+}
+.toplist li.lineright {
+	border-right: 1px solid #e4e4e4;
+}
+.toplist li a {
+	color: #8d8c8c;
+}
+.toplist li a:hover {
+	color: #272727;
+}
+.toplist.toppadding {
+	padding-top: 10px;
+}
+a.topbar-btn {
+	float: left;
+	color: #242424;
+	text-align: center;
+	font-size: 14px;
+	margin: 0px;
+	border-radius: 2px;
+	padding: 5px 15px;
+	background-color: #fff;
+}
+.topbar-padding {
+	padding: 7px 0 15px 0;
+}
+.topbar-left-items {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 37%;
+}
+.topbar-middle-logo {
+	float: left;
+	margin: 0;
+	padding: 10px 0;
+	width: 26%;
+	text-align: center;
+	background-color: #fd602c;
+}
+.topbar-middle-logo.no-bgcolor {
+	background:none;
+}
+.topbar-right-items {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 37%;
+}
+
+/* topbar dark list color
+ ------------------------------ */
+.topbar.dark .toplist li a:hover {
+	color: #fff;
+}
+.topbar.fulldark .toplist li a:hover {
+	color: #fff;
+}
+.topbar.dark .toplist li.lineright {
+	border-right: 1px solid #727272;
+}
+.topbar.fulldark .toplist li.lineright {
+	border-right: 1px solid #3a3a3a;
+}
+/* topbar logo middle
+ ------------------------------ */
+.topbar-middle-logo.nobg {
+	background: none;
+}
+/* topbar btn
+ ------------------------------ */
+a.topbar-btn:hover, a.topbar-btn.active {
+	color: #FFF !important;
+	background-color: #fd602c;
+}
+
+/* topbar pink top list color
+ ------------------------------ */
+.topbar.pink .toplist li a {
+	color: #f51f6f;
+}
+.topbar.pink .toplist li {
+	color: #f51f6f;
+}
+/* topbar white top list color
+ ------------------------------ */
+.topbar.white-2 .toplist li a {
+	color: #fff;
+}
+.topbar.white-2 .toplist li {
+	color: #fff;
+}
+/* topbar orange toplist color
+ ------------------------------ */
+.topbar.orange2 .toplist li {
+	color: #fff;
+}
+.topbar.orange2 .toplist li a {
+	color: #fff;
+}
+.topbar.orange2 .toplist li a:hover {
+	color: #242424;
+}
+/* topbar right items two
+ ------------------------------ */
+.topbar-right-items.two {
+	width: 50%;
+}
+/*============ Logo ============ */
+
+.logo {
+	position: relative;
+	float: left;
+	text-align: left;
+	padding: 20px 0 0 0;
+	z-index: 10;
+}
+.logo.toppadd {
+	padding: 5px 0 0 0;
+}
+/*============ Section Titles ============ */
+
+/* page title
+ ------------------------------ */
+.section-title {
+	font-weight: 400;
+}
+/* subtitle
+ ------------------------------ */
+.sub-title {
+	width: 48%;
+	font-size: 16px;
+	margin: 0 auto 70px auto;
+}
+.sub-title-2 {
+	width: 48%;
+	font-size: 14px;
+	margin: 0 auto 70px auto;
+}
+.sub-title-left {
+	width: 90%;
+	font-size: 16px;
+	margin-right: 10%;
+	float: left;
+	margin-bottom: 55px;
+}
+.sub-title-left-2 {
+	width: 90%;
+	font-size: 14px;
+	margin-right: 10%;
+	float: left;
+	margin-bottom: 55px;
+}
+/* Page title style 2
+ ------------------------------ */
+.section-title-2 {
+	font-weight: 400;
+	font-size: 28px;
+}
+.sub-title-2.more-width {
+	width: 90%;
+}
+
+/* Page title style 3
+ ------------------------------ */
+.section-title-3 {
+	padding: 0 0 20px 0;
+	margin: 0px;
+	font-weight: 700;
+	font-size: 60px;
+}
+.section-title-3.small {
+	font-weight: 700;
+	padding: 0 0 10px 0;
+	font-size: 30px;
+}
+/* Page title style 4
+ ------------------------------ */
+.section-title-4 {
+	padding: 10px 0 30px 0;
+	margin: 0px;
+	font-weight: 100;
+	font-size: 70px;
+}
+/* Page title style 5
+ ------------------------------ */
+.section-title-5 {
+	font-weight: normal;
+	font-size: 26px;
+}
+/* Page title style 6
+ ------------------------------ */
+.section-title-6 {
+	padding:10px 0 0 0;
+	margin: 0px;
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 60px;
+}
+.section-small-title-6 {
+	padding:0;
+	margin: 0px;
+	font-weight: normal;
+	font-size: 60px;
+}
+/* page title 7
+ ------------------------------ */
+.section-title-7{
+     overflow: hidden;
+     text-align: center;
+	 margin-bottom:50px;
+ }
+.section-title-7 > span{
+    position: relative;
+    display: inline-block;
+}
+.section-title-7 > span:before, .section-title-7 > span:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 1px solid;
+    width: 591px; /* half of limiter*/
+    margin: 0 20px;
+	border-color:#e4e4e4;
+}
+.section-title-7 > span:before{
+    right: 100%;
+}
+.section-title-7 > span:after{
+    left: 100%;
+}
+.sec-topmargin {
+	margin-top: -80px;
+}
+
+/* section title small
+ ------------------------------ */
+.section-title-small {
+	padding: 0 0 12px 0;
+	margin: 0px;
+	font-weight: 400;
+	font-size: 20px;
+}
+.section-title-xsmall {
+	padding: 0 0 0 0;
+	margin: 0px;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+/* section title lines
+ ------------------------------ */
+/* title bottom line 3
+ ------------------------------ */
+ 
+.title-line-3 {
+	width: 90px;
+	height: 3px;
+	float: left;
+	padding: 0px;
+	margin: 0 auto 70px auto;
+	background-color: #fff;
+}
+
+/* title bottom line 4
+ ------------------------------ */
+.title-line-4 {
+	width: 34px;
+	height: 2px;
+	float: left;
+	padding: 0px;
+	margin: 0 auto 60px auto;
+	background-color: #161616;
+}
+.title-line-4.less-margin {
+	margin: 0 auto 15px auto;
+}
+.title-line-4.align-center.less-margin {
+	margin: 0 auto 15px auto;
+}
+.title-line-4.align-center {
+	width: 34px;
+	height: 2px;
+	float: none;
+	padding: 0px;
+	margin: 0 auto 60px auto;
+}
+/* title bottom line 5
+ ------------------------------ */
+.title-line-5 {
+	width: 100%;
+	padding: 0px;
+	text-align: center;
+	margin: 0 auto 60px auto;
+}
+.title-line-5.align-left {
+	text-align: left;
+}
+/* title bottom line 6
+ ------------------------------ */
+.title-line-6 {
+	width: 55px;
+	height: 2px;
+	padding: 0px;
+	margin: 0 auto 60px auto;
+	background-color: #e9ee42;
+}
+.title-line-6.align-left {
+	float: left;
+}
+.title-line-6.less-margin {
+	margin: 0 auto 40px auto;
+}
+/* title bottom line 7
+ ------------------------------ */
+.title-line-7 {
+	width: 100%;
+	height: 2px;
+	float: left;
+	padding: 0px;
+	margin: 0 auto 20px auto;
+	background-color: #ff971c;
+}
+.title-line-7.less-width {
+	width: 20%;
+	margin: 0 50% 20px 0;
+}
+
+ /* title bottom line 8
+ ------------------------------ */
+.title-line-8 {
+	width: 45px;
+	height: 3px;
+	padding: 0px;
+	margin: 0 auto 20px auto;
+	background-color: #fd602c;
+}
+.title-line-8.left {
+	width: 7%;
+	float: left;
+	margin: 0 93% 0 0;
+}
+.title-line-8.marginbottom {
+	margin: 0 auto 70px auto;
+}
+.title-line-8.lessmargin {
+	margin: 0 auto 40px auto;
+}
+
+/* title bottom line 9
+ ------------------------------ */
+.title-line-9 {
+	width: 20%;
+	height: 3px;
+	float: left;
+	padding: 0px;
+	margin-right:80%;
+	margin-bottom:5%;
+	background-color: #ce0a6c;
+}
+.title-line-9.white {
+	background-color: #fff;
+}
+
+/* title bottom line 10
+ ------------------------------ */
+.title-line-10 {
+	width:50%;
+	padding:20px 0 0 0;
+	margin:0 auto 70px auto;
+}
+.title-line-10.align-left {
+	width:50%;
+	float:left;
+	padding:20px 0 0 0;
+	margin:0 50% 70px 0;
+}
+
+/* title bottom line colors
+ ------------------------------ */
+
+.title-line-8.yellow {
+	margin-bottom: 17px;
+	background-color: #ffc000;
+}
+.title-line-8.white {
+	margin-bottom: 17px;
+	background-color: #fff;
+}
+.section-title-3.dark {
+	color: #000;
+}
+.title-line-3.dark {
+	background-color: #000;
+}
+.title-line-4.white {
+	background-color: #fff;
+}
+.title-line-4.brown {
+	background-color: #8b501f;
+}
+.title-line-4.green {
+	background-color: #a5d549;
+}
+.title-line-4.orange-3 {
+	background-color: #ff971c;
+}
+.title-line-4.orange-4 {
+	background-color: #ff9320;
+}
+.title-line-4.green-4 {
+	background-color: #8ac700;
+}
+.title-line-4.pink {
+	background-color: #f51f6f;
+}
+.title-line-4.blue {
+	background-color: #1fbef0;
+}
+.title-line-4.stone {
+	background-color: #c3a254;
+}
+.title-line-8.white {
+	background-color: #fff;
+}
+.title-line-8.red2 {
+	background-color: #ea3628;
+}
+.section-title-small.dark {
+	color: #000;
+}
+
+/* Footer title
+ ------------------------------ */
+ 
+.footer-title {
+	color: #fff;
+	float: left;
+}
+.footer-title-bottomstrip {
+	width: 10%;
+	height: 3px;
+	margin-right: 95%;
+	color: #fff;
+	float: left;
+	display: block;
+	margin-bottom: 40px;
+	background-color: #fff;
+}
+.footer-title-bottomstrip2 {
+	width: 34px;
+	height: 2px;
+	color: #fff;
+	float: left;
+	display: block;
+	margin-bottom: 40px;
+	background-color: #fff;
+}
+.footer-title-bottomstrip.dark {
+	background-color: #242424;
+}
+.footer-title-bottomstrip2.dark {
+	background-color: #242424;
+}
+.footer-title.two {
+	color: #242424;
+}
+/*============ css arrows ============ */
+
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fd602c;
+}
+.arrow-up {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid black;
+}
+.arrow-right {
+	width: 0;
+	height: 0;
+	border-top: 60px solid transparent;
+	border-bottom: 60px solid transparent;
+	border-left: 60px solid green;
+}
+.arrow-left {
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-right: 20px solid #fff;
+}
+/*============ Page Section Styles ============ */
+
+/* section background dark
+ ------------------------------ */
+.section-dark {
+	background-color: #242424;
+}
+.section-dark.two {
+	background-color: #1b1b1b;
+}
+.section-fulldark {
+	background-color: #101010;
+}
+.section-medium-dark {
+	background-color: #161616;
+}
+/* section background light
+ ------------------------------ */
+.section-light {
+	background-color: #f6f6f6;
+}
+/* section background orange
+ ------------------------------ */
+.section-orange {
+	background-color: #fd602c;
+}
+.section-orange-2 {
+	background-color: #fd602c;
+}
+.section-orange-3 {
+	background-color: #ff971c;
+}
+.section-orange-4 {
+	background-color: #ff9320;
+}
+/* section background green
+ ------------------------------ */
+.section-green {
+	background-color: #fd602c;
+}
+.section-green-2 {
+	background-color: #a5d549;
+}
+.section-green-3 {
+	background-color: #a5d549;
+}
+.section-green-4 {
+	background-color: #8ac700;
+}
+/* section background blue
+ ------------------------------ */
+.section-blue {
+	background-color: #1fbef0;
+}
+/* section background red
+ ------------------------------ */
+.section-red {
+	background-color: #e93e21;
+}
+.section-red-5{
+	background-color: #ed3325;
+}
+/* section background yellow
+ ------------------------------ */
+.section-yellow {
+	background-color: #ffc000;
+}
+.section-yellow-2 {
+	background-color: #fcc813;
+}
+.section-yellow-3 {
+	background-color: #f7c800;
+}
+.section-yellow-4 {
+	background-color: #e9b444;
+}
+.section-yellow-green-2 {
+	background-color: #e9ee42;
+}
+/* section background pink
+ ------------------------------ */
+.section-pink {
+	background-color: #f51f6f;
+}
+.section-pink-3 {
+	background-color: #ce0a6c;
+}
+/* section background stone
+ ------------------------------ */
+.section-light-stone {
+	background-color: #f8f4ea;
+}
+/* section background cyan
+ ------------------------------ */
+.section-cyan {
+	background-color: #42d1aa;
+}
+
+/* section copyright
+ ------------------------------ */
+.section-copyrights {
+	margin: 0;
+	text-align: center;
+	background-color: #1a1a1a;
+}
+.section-copyrights.section-white {
+	color: #fff;
+	background-color: #dbdc33;
+}
+.section-copyrights.section-white-2 {
+	color: #727272;
+	background-color: #fff;
+}
+.section-copyrights.fulldark {
+	color: #727272;
+	background-color: #161616;
+}
+/* section big map
+ ------------------------------ */
+.section-big-map {
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	background: #161616 url(../images/site-img46.png) center 150px no-repeat;
+}
+/* section pattren 1
+ ------------------------------ */
+.section-pattren1 {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background: url(../images/pattren1.jpg) 0 0 repeat;
+}
+
+/* Section Paddings
+ ------------------------------ */
+.sec-padding {
+	padding: 80px 0 80px 0;
+}
+.sec-bpadding-2 {
+	padding-bottom: 80px;
+}
+.sec-tpadding-2 {
+	padding-top: 80px;
+}
+.sec-tpadding-3 {
+	padding-top: 120px;
+}
+.sec-bpadding-3 {
+	padding-bottom: 120px;
+}
+.sec-tpadding-4 {
+	padding-top: 150px;
+}
+.sec-bpadding-4 {
+	padding-bottom: 150px;
+}
+.sec-bpadding.less-padding {
+	padding-bottom: 30px;
+}
+.section-xmore-padding {
+	padding: 150px 0 150px 0;
+}
+.section-less-padding {
+	padding: 50px 0 50px 0;
+}
+.sec-moreless-padding {
+	padding: 30px 0 30px 0;
+}
+.sec-dummy-top-padding {
+	padding-top: 0px;
+}
+.section-less-padding.top-margin {
+	margin-top: -80px;
+}
+
+/* default home page Section Paddings
+ ------------------------------ */
+.sec-padd-default-page {
+	padding: 110px 0 110px 0;
+}
+

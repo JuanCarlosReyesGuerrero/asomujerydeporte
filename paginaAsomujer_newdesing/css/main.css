@@ -964,12 +964,44 @@ ul.nostyle i {
     opacity: 0.5;
 }
 */
-.testimonial1{
+
+/*
+.testimonialBefore{
     content: "\f10d";
     font-family: fontawesome;
     position: absolute;
     top: 120px;
     left: 10px;
+    font-size: 50px;
+    color: #00adb7;
+    opacity: 0.5;
+}
+
+.testimonialAfter{
+    content: "\f10d";
+    font-family: fontawesome;
+    position: absolute;
+    top: 180px;
+    left: 700px;
+    font-size: 50px;
+    color: #00adb7;
+    opacity: 0.5;
+}
+*/
+
+.testimonialBefore{
+    content: "\f10d";
+    font-family: fontawesome;
+    float:left;
+    font-size: 50px;
+    color: #00adb7;
+    opacity: 0.5;
+}
+
+.testimonialAfter{
+    content: "\f10d";
+    font-family: fontawesome;
+    float:right;
     font-size: 50px;
     color: #00adb7;
     opacity: 0.5;
